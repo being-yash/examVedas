@@ -59,7 +59,7 @@ for page in sec_links:
 
 #print(got_q)
 #print(len(got_q))
-with open('numberSystemQuestions.txt', 'w', encoding="utf-8") as f:
+with open('outputs/numberSystemQuestions.txt', 'w', encoding="utf-8") as f:
      for sublist in got_q:
           line = "{}\n".format(sublist[0])
           f.write(line)
